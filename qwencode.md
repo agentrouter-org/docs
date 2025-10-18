@@ -3,24 +3,58 @@
 
 ## 安装 Qwen Code 
 
-```bash
+::: code-group
+
+```bash [pnpm (推荐)]
 # 使用 pnpm 安装（推荐）
 pnpm install -g @qwen-code/qwen-code
+```
 
+```bash [npm]
 # 或使用 npm 安装
 npm install -g @qwen-code/qwen-code
 ```
+
+:::
 ## 配置环境变量
 
 在终端中输入如下命令，设置环境变量（[环境变量设置教程](https://www.java.com/zh-CN/download/help/path.html)）来使用 AgentRouter 的 OpenAI API :
 
-```bash
+::: code-group
+
+```bash [Linux/macOS (bash/zsh)]
 # 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
 export OPENAI_API_KEY="sk-xxx"
 # 设置 AgentRouter 的 API 基础 URL
 export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
 export OPENAI_MODEL="gpt-5" # 可选，模型名
 ```
+
+```powershell [Windows PowerShell]
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+$env:OPENAI_API_KEY="sk-xxx"
+# 设置 AgentRouter 的 API 基础 URL
+$env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
+$env:OPENAI_MODEL="gpt-5" # 可选，模型名
+```
+
+```cmd [Windows CMD]
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set OPENAI_API_KEY=sk-xxx
+# 设置 AgentRouter 的 API 基础 URL
+set OPENAI_BASE_URL=https://agentrouter.org/v1
+set OPENAI_MODEL=gpt-5
+```
+
+```fish [Fish Shell]
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set -gx OPENAI_API_KEY "sk-xxx"
+# 设置 AgentRouter 的 API 基础 URL
+set -gx OPENAI_BASE_URL "https://agentrouter.org/v1"  # 可选
+set -gx OPENAI_MODEL "gpt-5" # 可选，模型名
+```
+
+:::
 
 > [!IMPORTANT]
 > 请确保将 sk-xxx 替换为 AgentRouter 提供的 Token 。您可以在 [AgentRouter 控制台](https://agentrouter.org/console/token ) 中获取 API Key。
@@ -40,7 +74,9 @@ qwen
 ::: tip
 您可以将环境变量配置添加到您的 shell 配置文件中，避免每次手动设置：
 
-```bash
+::: code-group
+
+```bash [Linux/macOS (bash/zsh)]
 # 添加到 ~/.bashrc 或 ~/.zshrc 文件中
 # 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
 export OPENAI_API_KEY="sk-xxx"
@@ -48,6 +84,35 @@ export OPENAI_API_KEY="sk-xxx"
 export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
 export OPENAI_MODEL="gpt-5" # 可选，模型名
 ```
+
+```powershell [Windows PowerShell]
+# 添加到 PowerShell 配置文件中 ($PROFILE)
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+$env:OPENAI_API_KEY="sk-xxx"
+# 设置 AgentRouter 的 API 基础 URL
+$env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
+$env:OPENAI_MODEL="gpt-5" # 可选，模型名
+```
+
+```cmd [Windows CMD]
+# 添加到批处理文件或系统环境变量中
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set OPENAI_API_KEY=sk-xxx
+# 设置 AgentRouter 的 API 基础 URL
+set OPENAI_BASE_URL=https://agentrouter.org/v1
+set OPENAI_MODEL=gpt-5
+```
+
+```fish [Fish Shell]
+# 添加到 ~/.config/fish/config.fish 文件中
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set -gx OPENAI_API_KEY "sk-xxx"
+# 设置 AgentRouter 的 API 基础 URL
+set -gx OPENAI_BASE_URL "https://agentrouter.org/v1"  # 可选
+set -gx OPENAI_MODEL "gpt-5" # 可选，模型名
+```
+
+:::
 
 :::
 

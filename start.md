@@ -2,18 +2,26 @@
 
 ## 安装 Claude Code
 
-```bash
+::: code-group
+
+```bash [pnpm (推荐)]
 # 使用 pnpm 安装（推荐）
 pnpm install -g @anthropic-ai/claude-code
+```
 
+```bash [npm]
 # 或使用 npm 安装
 npm install -g @anthropic-ai/claude-code
 ```
+
+:::
 ## 配置环境变量
 
 在终端中输入如下命令，设置环境变量来使用 AgentRouter 的 Anthropic API :
 
-```bash
+::: code-group
+
+```bash [Linux/macOS (bash/zsh)]
 # 设置 AgentRouter 的 API 基础 URL
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 
@@ -21,6 +29,35 @@ export ANTHROPIC_BASE_URL=https://agentrouter.org/
 export ANTHROPIC_AUTH_TOKEN=sk-xxx
 export ANTHROPIC_API_KEY=sk-xxx
 ```
+
+```powershell [Windows PowerShell]
+# 设置 AgentRouter 的 API 基础 URL
+$env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
+
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+$env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
+$env:ANTHROPIC_API_KEY="sk-xxx"
+```
+
+```cmd [Windows CMD]
+# 设置 AgentRouter 的 API 基础 URL
+set ANTHROPIC_BASE_URL=https://agentrouter.org/
+
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set ANTHROPIC_AUTH_TOKEN=sk-xxx
+set ANTHROPIC_API_KEY=sk-xxx
+```
+
+```fish [Fish Shell]
+# 设置 AgentRouter 的 API 基础 URL
+set -gx ANTHROPIC_BASE_URL "https://agentrouter.org/"
+
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
+set -gx ANTHROPIC_API_KEY "sk-xxx"
+```
+
+:::
 
 > [!IMPORTANT]
 > 请确保将 sk-xxx 替换为 AgentRouter 提供的 Token 。您可以在 [AgentRouter 控制台](https://agentrouter.org/console/token ) 中获取 API Key。
@@ -40,11 +77,36 @@ claude
 ::: tip
 您可以将环境变量配置添加到您的 shell 配置文件中，避免每次手动设置：
 
-```bash
+::: code-group
+
+```bash [Linux/macOS (bash/zsh)]
 # 添加到 ~/.bashrc 或 ~/.zshrc 文件中
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 export ANTHROPIC_AUTH_TOKEN=sk-xxx
 export ANTHROPIC_API_KEY=sk-xxx
 ```
+
+```powershell [Windows PowerShell]
+# 添加到 PowerShell 配置文件中 ($PROFILE)
+$env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
+$env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
+$env:ANTHROPIC_API_KEY="sk-xxx"
+```
+
+```cmd [Windows CMD]
+# 添加到批处理文件或系统环境变量中
+set ANTHROPIC_BASE_URL=https://agentrouter.org/
+set ANTHROPIC_AUTH_TOKEN=sk-xxx
+set ANTHROPIC_API_KEY=sk-xxx
+```
+
+```fish [Fish Shell]
+# 添加到 ~/.config/fish/config.fish 文件中
+set -gx ANTHROPIC_BASE_URL "https://agentrouter.org/"
+set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
+set -gx ANTHROPIC_API_KEY "sk-xxx"
+```
+
+:::
 
 :::

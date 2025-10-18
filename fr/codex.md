@@ -4,23 +4,24 @@
 
 ::: code-group
 
-```bash [pnpm (recommandé)]
-# Installer en utilisant pnpm (recommandé)
+```bash [pnpm]
 pnpm install -g @openai/codex
 ```
 
 ```bash [npm]
-# Ou installer en utilisant npm
 npm install -g @openai/codex
 ```
 
+```bash [yarn]
+yarn global add @openai/codex
+```
+
 :::
+## Configurer les variables d'environnement
 
-## Configurer les Variables d'Environnement
-
-1. Visitez https://agentrouter.org/console/token pour obtenir votre Clé API
-2. Configurer la variable d'environnement système, nom de variable `AGENT_ROUTER_TOKEN`, valeur est la valeur que vous venez de demander ([Tutoriel de Configuration des Variables d'Environnement](https://www.java.com/zh-CN/download/help/path.html))
-3. Créer le fichier `~/.codex/config.toml` et ajouter la configuration suivante
+1. Visitez https://agentrouter.org/console/token pour obtenir votre clé API
+2. Définissez la variable d'environnement système avec le nom `AGENT_ROUTER_TOKEN` et la valeur que vous venez d'obtenir ([Tutoriel sur les variables d'environnement](https://www.java.com/zh-CN/download/help/path.html))
+3. Créez le fichier `~/.codex/config.toml` et ajoutez la configuration suivante :
 
 ```toml
 model = "gpt-5"
@@ -38,37 +39,40 @@ stream_idle_timeout_ms = 300000
 
 ```
 
-4. Créer le fichier `~/.codex/auth.json` et y ajouter le code suivant
+4. Créez le fichier `~/.codex/auth.json` et ajoutez le code suivant :
 
 ```json
 {
- "OPENAI_API_KEY":"Remplacer ici par votre CLAVE demandée"
+ "OPENAI_API_KEY":"Remplacez par votre clé obtenue"
 }
 ```
 
-## Lancement Direct et Utilisation
+## Lancement direct
 
-Après avoir configuré les variables d'environnement, utilisez le terminal pour ouvrir le répertoire du projet avec lequel vous voulez travailler, puis exécutez la commande suivante pour démarrer Codex :
+Après avoir configuré les variables d'environnement, utilisez le terminal pour ouvrir le répertoire de votre projet, puis exécutez la commande suivante pour démarrer Codex :
 
 ```bash
-# Entrer dans le répertoire du projet
-cd my-project
+# Accéder au répertoire du projet
+cd mon-projet
 
-# Démarrer directement OpenAI Codex
+# Lancer OpenAI Codex directement
 codex
 ```
 
-## Utiliser dans VSCode avec Codex
 
-1. Référez-vous aux instructions ci-dessus pour installer Codex et configurer les variables d'environnement et fichiers de configuration.
+## Utiliser Codex dans VSCode
 
-2. Ouvrez VSCode et installez l'[Extension Codex](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt).
 
-3. Allez dans les paramètres et cliquez sur le coin supérieur droit pour passer au mode de configuration JSON
+1. Suivez les instructions ci-dessus pour installer Codex et configurer les variables d'environnement et les fichiers de configuration.
+
+2. Ouvrez VSCode et installez l'[extension Codex](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt).
+
+3. Accédez aux paramètres et cliquez sur l'icône en haut à droite pour basculer en mode de configuration JSON.
 
 ![](../img/codex-config.png)
 
-4. Ajouter les éléments de configuration suivants
+4. Ajoutez les éléments de configuration suivants :
+
 
 ```json
 "chatgpt.apiBase": "https://agentrouter.org/v1",
@@ -80,4 +84,5 @@ codex
 
 ![](../img/codex-config2.png)
 
-5. Cliquez sur l'icône Codex pour commencer à utiliser
+
+5. Cliquez sur l'icône Codex pour commencer à l'utiliser

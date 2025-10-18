@@ -4,14 +4,16 @@
 
 ::: code-group
 
-```bash [pnpm (推荐)]
-# 使用 pnpm 安装（推荐）
+```bash [pnpm]
 pnpm install -g @anthropic-ai/claude-code
 ```
 
 ```bash [npm]
-# 或使用 npm 安装
 npm install -g @anthropic-ai/claude-code
+```
+
+```bash [yarn]
+yarn global add @anthropic-ai/claude-code
 ```
 
 :::
@@ -21,7 +23,11 @@ npm install -g @anthropic-ai/claude-code
 
 ::: code-group
 
+<<<<<<< HEAD
 ```bash [Linux/macOS (bash/zsh)]
+=======
+```bash [Linux/macOS]
+>>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 # 设置 AgentRouter 的 API 基础 URL
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 
@@ -39,6 +45,7 @@ $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
+<<<<<<< HEAD
 ```cmd [Windows CMD]
 # 设置 AgentRouter 的 API 基础 URL
 set ANTHROPIC_BASE_URL=https://agentrouter.org/
@@ -57,6 +64,8 @@ set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
 set -gx ANTHROPIC_API_KEY "sk-xxx"
 ```
 
+=======
+>>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 :::
 
 > [!IMPORTANT]
@@ -79,7 +88,11 @@ claude
 
 ::: code-group
 
+<<<<<<< HEAD
 ```bash [Linux/macOS (bash/zsh)]
+=======
+```bash [Linux/macOS]
+>>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 # 添加到 ~/.bashrc 或 ~/.zshrc 文件中
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 export ANTHROPIC_AUTH_TOKEN=sk-xxx
@@ -87,12 +100,17 @@ export ANTHROPIC_API_KEY=sk-xxx
 ```
 
 ```powershell [Windows PowerShell]
+<<<<<<< HEAD
 # 添加到 PowerShell 配置文件中 ($PROFILE)
+=======
+# 添加到 PowerShell 配置文件 ($PROFILE)
+>>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 $env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
 $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
+<<<<<<< HEAD
 ```cmd [Windows CMD]
 # 添加到批处理文件或系统环境变量中
 set ANTHROPIC_BASE_URL=https://agentrouter.org/
@@ -107,6 +125,8 @@ set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
 set -gx ANTHROPIC_API_KEY "sk-xxx"
 ```
 
+=======
+>>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 :::
 
 :::

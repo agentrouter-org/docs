@@ -2,8 +2,6 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "AgentRouter 接入说明",
-  description: "AgentRouter 接入说明",
   lastUpdated: true,
   sitemap: {
     hostname: "https://docs.agentrouter.org",
@@ -18,9 +16,10 @@ export default defineConfig({
     },
   },
   locales: {
+    // --- 中文版本 ---
     root: {
-      label: '简体中文',
-      lang: 'zh-CN',
+      label: "简体中文",
+      lang: "zh-CN",
       title: "AgentRouter 接入说明",
       description: "AgentRouter 接入说明",
       themeConfig: {
@@ -52,9 +51,6 @@ export default defineConfig({
             ],
           },
         ],
-        footer: {
-          copyright: "AgentRouter.org",
-        },
         sidebar: [
           {
             text: "快速开始",
@@ -69,21 +65,24 @@ export default defineConfig({
           },
           {
             text: "联系方式",
-            items: [
-              { text: "联系我们", link: "/contact" },
-            ],
+            items: [{ text: "联系我们", link: "/contact" }],
           },
         ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
       },
     },
+
+    // --- English Version ---
     en: {
-      label: 'English',
-      lang: 'en-US',
-      title: 'AgentRouter Documentation',
-      description: 'AgentRouter Integration Guide',
+      label: "English",
+      lang: "en-US",
+      title: "AgentRouter Integration Guide",
+      description: "AgentRouter Integration Guide",
       themeConfig: {
         lastUpdated: {
-          text: 'Last updated',
+          text: "Last Updated",
         },
         search: {
           provider: "local",
@@ -98,7 +97,7 @@ export default defineConfig({
             text: "Follow on X",
             link: "https://x.com/agentrouter",
           },
-          { text: "Quick Start", link: "/en/start" },
+          { text: "Get Started", link: "/en/start" },
           {
             text: "Tool Guides",
             items: [
@@ -110,38 +109,38 @@ export default defineConfig({
             ],
           },
         ],
-        footer: {
-          copyright: "AgentRouter.org",
-        },
         sidebar: [
           {
-            text: "Quick Start",
+            text: "Get Started",
             items: [
-              { text: "Using with Claude Code", link: "/en/start" },
-              { text: "Using with Codex", link: "/en/codex" },
-              { text: "Using with Gemini Cli", link: "/en/gemini" },
-              { text: "Using with RooCode", link: "/en/roocode" },
-              { text: "Using with Kilocode", link: "/en/kilocode" },
-              { text: "Using with Qwen Code", link: "/en/qwencode" },
+              { text: "Use with Claude Code", link: "/en/start" },
+              { text: "Use with Codex", link: "/en/codex" },
+              { text: "Use with Gemini Cli", link: "/en/gemini" },
+              { text: "Use with RooCode", link: "/en/roocode" },
+              { text: "Use with Kilocode", link: "/en/kilocode" },
+              { text: "Use with Qwen Code", link: "/en/qwencode" },
             ],
           },
           {
             text: "Contact",
-            items: [
-              { text: "Contact Us", link: "/en/contact" },
-            ],
+            items: [{ text: "Contact Us", link: "/en/contact" }],
           },
         ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
       },
     },
+
+    // --- Spanish Version ---
     es: {
-      label: 'Español',
-      lang: 'es-ES',
-      title: 'Documentación de AgentRouter',
-      description: 'Guía de Integración de AgentRouter',
+      label: "Español",
+      lang: "es-ES",
+      title: "Documentación de AgentRouter",
+      description: "Guía de Integración de AgentRouter",
       themeConfig: {
         lastUpdated: {
-          text: 'Última actualización',
+          text: "Última actualización",
         },
         search: {
           provider: "local",
@@ -192,31 +191,31 @@ export default defineConfig({
         ],
       },
     },
+
+    // --- French Version ---
     fr: {
-      label: 'Français',
-      lang: 'fr-FR',
-      title: 'Documentation AgentRouter',
-      description: 'Guide d\'Intégration AgentRouter',
+      label: "Français",
+      lang: "fr",
+      link: "/fr/",
+      title: "Guide d'intégration AgentRouter",
+      description: "Guide d'intégration AgentRouter",
       themeConfig: {
         lastUpdated: {
-          text: 'Dernière mise à jour',
-        },
-        search: {
-          provider: "local",
+          text: "Dernière mise à jour",
         },
         nav: [
           { text: "Accueil", link: "/fr/" },
           {
-            text: "S'inscrire AgentRouter",
+            text: "S'inscrire à AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
           },
           {
-            text: "Suivre sur X",
+            text: "Suivez-nous sur X",
             link: "https://x.com/agentrouter",
           },
-          { text: "Démarrage Rapide", link: "/fr/start" },
+          { text: "Démarrage rapide", link: "/fr/start" },
           {
-            text: "Guides d'Outils",
+            text: "Guide des outils",
             items: [
               { text: "Claude Code", link: "/fr/start" },
               { text: "OpenAI Codex", link: "/fr/codex" },
@@ -226,12 +225,9 @@ export default defineConfig({
             ],
           },
         ],
-        footer: {
-          copyright: "AgentRouter.org",
-        },
         sidebar: [
           {
-            text: "Démarrage Rapide",
+            text: "Démarrage rapide",
             items: [
               { text: "Utiliser avec Claude Code", link: "/fr/start" },
               { text: "Utiliser avec Codex", link: "/fr/codex" },
@@ -243,11 +239,12 @@ export default defineConfig({
           },
           {
             text: "Contact",
-            items: [
-              { text: "Nous Contacter", link: "/fr/contact" },
-            ],
+            items: [{ text: "Contactez-nous", link: "/fr/contact" }],
           },
         ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
       },
     },
   },

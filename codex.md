@@ -4,14 +4,16 @@
 
 ::: code-group
 
-```bash [pnpm (推荐)]
-# 使用 pnpm 安装（推荐）
+```bash [pnpm]
 pnpm install -g @openai/codex
 ```
 
 ```bash [npm]
-# 或使用 npm 安装
 npm install -g @openai/codex
+```
+
+```bash [yarn]
+yarn global add @openai/codex
 ```
 
 :::

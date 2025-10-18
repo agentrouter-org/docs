@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AgentRouter"
-  tagline: Station de Service Public de Codage IA
+  tagline: Plateforme gratuite pour l'IA Coding
   actions:
     - theme: brand
       text: Commencer
@@ -14,8 +14,8 @@ hero:
       link: /fr/codex
 
 features:
-  - title: Gratuit à Utiliser
-    details: Nous fournissons aux développeurs l'aide que nous pouvons offrir, en fournissant des quotas gratuits pour soutenir le Codage IA.
-  - title: Compatible avec Claude Code, Codex, Gemini Cli et autres outils
-    details: Peu importe ce que vous utilisez, nous le supportons.
+  - title: Utilisation gratuite
+    details: Nous fournissons une aide aux développeurs dans la mesure de nos capacités, offrant des quotas gratuits pour soutenir l'IA Coding.
+  - title: Compatible avec Claude Code, Codex, Gemini Cli et bien d'autres outils
+    details: Tous les outils que vous utilisez, nous les prenons en charge.
 ---

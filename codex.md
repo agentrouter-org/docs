@@ -47,6 +47,31 @@ stream_idle_timeout_ms = 300000
 }
 ```
 
+::: tip
+您可以将环境变量配置添加到您的系统环境变量中，避免每次手动设置：
+
+::: code-group
+
+```bash [Linux/macOS]
+# 添加到 ~/.bashrc 或 ~/.zshrc 文件中
+export AGENT_ROUTER_TOKEN="your-token-here"
+```
+
+```powershell [Windows PowerShell]
+# 添加到 PowerShell 配置文件 ($PROFILE)
+$env:AGENT_ROUTER_TOKEN="your-token-here"
+```
+
+```cmd [Windows CMD]
+# 添加到系统环境变量中
+set AGENT_ROUTER_TOKEN=your-token-here
+# 或者通过系统属性设置永久环境变量
+```
+
+:::
+
+:::
+
 ## 直接启动使用
 
 配置好环境变量后，使用终端打开你要操作的项目目录，然后运行如下命令启动 Codex

@@ -41,6 +41,23 @@ $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
+```cmd [Windows CMD]
+# 设置 AgentRouter 的 API 基础 URL
+set ANTHROPIC_BASE_URL=https://agentrouter.org/
+
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set ANTHROPIC_AUTH_TOKEN=sk-xxx
+set ANTHROPIC_API_KEY=sk-xxx
+```
+
+```fish [Fish Shell]
+# 设置 AgentRouter 的 API 基础 URL
+set -gx ANTHROPIC_BASE_URL "https://agentrouter.org/"
+
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
+set -gx ANTHROPIC_API_KEY "sk-xxx"
+```
 :::
 
 > [!IMPORTANT]
@@ -77,6 +94,19 @@ $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
+```cmd [Windows CMD]
+# 添加到批处理文件或系统环境变量中
+set ANTHROPIC_BASE_URL=https://agentrouter.org/
+set ANTHROPIC_AUTH_TOKEN=sk-xxx
+set ANTHROPIC_API_KEY=sk-xxx
+```
+
+```fish [Fish Shell]
+# 添加到 ~/.config/fish/config.fish 文件中
+set -gx ANTHROPIC_BASE_URL "https://agentrouter.org/"
+set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
+set -gx ANTHROPIC_API_KEY "sk-xxx"
+```
 :::
 
 :::

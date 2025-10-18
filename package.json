@@ -5,7 +5,7 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
-    "vitepress": "^2.0.0-alpha.12"
+    "vitepress": "^1.6.4"
   },
   "peerDependencies": {
     "typescript": "^5"

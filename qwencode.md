@@ -80,6 +80,15 @@ $env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
 $env:OPENAI_MODEL="gpt-5" # 可选，模型名
 ```
 
+```cmd [Windows CMD]
+# 添加到批处理文件或系统环境变量中
+# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+set OPENAI_API_KEY=sk-xxx
+# 设置 AgentRouter 的 API 基础 URL
+set OPENAI_BASE_URL=https://agentrouter.org/v1
+set OPENAI_MODEL=gpt-5
+```
+
 :::
 
 :::

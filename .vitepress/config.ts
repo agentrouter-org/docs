@@ -6,7 +6,15 @@ export default defineConfig({
   sitemap: {
     hostname: "https://docs.agentrouter.org",
   },
-
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
+    },
+  },
   locales: {
     // --- 中文版本 ---
     root: {
@@ -121,6 +129,66 @@ export default defineConfig({
         footer: {
           copyright: "AgentRouter.org",
         },
+      },
+    },
+
+    // --- Spanish Version ---
+    es: {
+      label: "Español",
+      lang: "es-ES",
+      title: "Documentación de AgentRouter",
+      description: "Guía de Integración de AgentRouter",
+      themeConfig: {
+        lastUpdated: {
+          text: "Última actualización",
+        },
+        search: {
+          provider: "local",
+        },
+        nav: [
+          { text: "Inicio", link: "/es/" },
+          {
+            text: "Registrar AgentRouter",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "Seguir en X",
+            link: "https://x.com/agentrouter",
+          },
+          { text: "Inicio Rápido", link: "/es/start" },
+          {
+            text: "Guías de Herramientas",
+            items: [
+              { text: "Claude Code", link: "/es/start" },
+              { text: "OpenAI Codex", link: "/es/codex" },
+              { text: "Gemini Cli", link: "/es/gemini" },
+              { text: "RooCode", link: "/es/roocode" },
+              { text: "Qwen Code", link: "/es/qwencode" },
+            ],
+          },
+        ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
+        sidebar: [
+          {
+            text: "Inicio Rápido",
+            items: [
+              { text: "Usar con Claude Code", link: "/es/start" },
+              { text: "Usar con Codex", link: "/es/codex" },
+              { text: "Usar con Gemini Cli", link: "/es/gemini" },
+              { text: "Usar con RooCode", link: "/es/roocode" },
+              { text: "Usar con Kilocode", link: "/es/kilocode" },
+              { text: "Usar con Qwen Code", link: "/es/qwencode" },
+            ],
+          },
+          {
+            text: "Contacto",
+            items: [
+              { text: "Contáctanos", link: "/es/contact" },
+            ],
+          },
+        ],
       },
     },
 

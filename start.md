@@ -41,8 +41,6 @@ $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
-:::
-
 > [!IMPORTANT]
 > 请确保将 sk-xxx 替换为 AgentRouter 提供的 Token 。您可以在 [AgentRouter 控制台](https://agentrouter.org/console/token ) 中获取 API Key。
 
@@ -76,7 +74,3 @@ $env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
 $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
-
-:::
-
-:::

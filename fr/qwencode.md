@@ -40,6 +40,14 @@ $env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optionnel
 $env:OPENAI_MODEL="gpt-5" # Optionnel, nom du modèle
 ```
 
+```bash [Windows CMD]
+# Définir votre clé API AgentRouter, disponible sur https://agentrouter.org/console/token
+set OPENAI_API_KEY="sk-xxx"
+# Définir l'URL de base de l'API AgentRouter
+set OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optionnel
+set OPENAI_MODEL="gpt-5" # Optionnel, nom du modèle
+```
+
 :::
 
 > [!IMPORTANT]
@@ -78,6 +86,14 @@ $env:OPENAI_API_KEY="sk-xxx"
 # Définir l'URL de base de l'API AgentRouter
 $env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optionnel
 $env:OPENAI_MODEL="gpt-5" # Optionnel, nom du modèle
+```
+
+```bash [Windows CMD]
+# Définir votre clé API AgentRouter, disponible sur https://agentrouter.org/console/token
+set OPENAI_API_KEY="sk-xxx"
+# Définir l'URL de base de l'API AgentRouter
+set OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optionnel
+set OPENAI_MODEL="gpt-5" # Optionnel, nom du modèle
 ```
 
 :::

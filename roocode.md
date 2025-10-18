@@ -1,0 +1,23 @@
+# 在 Roo Code 中使用 Agent Router
+
+
+## 在 VSCode 中安装 RooCode
+
+1. 在 VScode 中搜索 [RooCode](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) 并安装。
+
+2. 访问  https://agentrouter.org/console/token ，获取你的 API Key
+
+
+## 新增提供商
+
+完成 Roo Code 安装后，可以打开 Roo Code，选择配置提供商，新增一个 OpenAI Compatible 的供应商，具体配置项可参考：
+
+
+- OpenAI 基础 URL： `https://agentrouter.org/v1`
+- API 密钥：你在  https://agentrouter.org/console/token  创建的 Key
+- 模型： `gpt-5`
+
+配置完成后，保存即可使用。
+
+
+![](./img/roo-code.png)

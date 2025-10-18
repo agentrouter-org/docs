@@ -23,11 +23,7 @@ yarn global add @anthropic-ai/claude-code
 
 ::: code-group
 
-<<<<<<< HEAD
-```bash [Linux/macOS (bash/zsh)]
-=======
 ```bash [Linux/macOS]
->>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 # 设置 AgentRouter 的 API 基础 URL
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 
@@ -45,7 +41,6 @@ $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
 ```
 
-<<<<<<< HEAD
 ```cmd [Windows CMD]
 # 设置 AgentRouter 的 API 基础 URL
 set ANTHROPIC_BASE_URL=https://agentrouter.org/
@@ -63,9 +58,6 @@ set -gx ANTHROPIC_BASE_URL "https://agentrouter.org/"
 set -gx ANTHROPIC_AUTH_TOKEN "sk-xxx"
 set -gx ANTHROPIC_API_KEY "sk-xxx"
 ```
-
-=======
->>>>>>> 6c7a3e2ce9d702c0d672e8a1a74943b3270ef07b
 :::
 
 > [!IMPORTANT]

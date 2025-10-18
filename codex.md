@@ -2,13 +2,21 @@
 
 ## 安装 Codex
 
-```bash
-# 使用 pnpm 安装（推荐）
-pnpm install -g @openai/codex
+::: code-group
 
-# 或使用 npm 安装
+```bash [pnpm]
+pnpm install -g @openai/codex
+```
+
+```bash [npm]
 npm install -g @openai/codex
 ```
+
+```bash [yarn]
+yarn global add @openai/codex
+```
+
+:::
 ## 配置环境变量
 
 1. 访问  https://agentrouter.org/console/token ，获取你的 API Key

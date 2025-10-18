@@ -23,6 +23,7 @@ export default defineConfig({
         },
         nav: [
           { text: "首页", link: "/" },
+          { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
           {
             text: "注册 AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
@@ -85,6 +86,7 @@ export default defineConfig({
             text: "Register AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
           },
+           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
           {
             text: "Follow on X",
             link: "https://x.com/agentrouter",
@@ -137,6 +139,7 @@ export default defineConfig({
         },
         nav: [
           { text: "Accueil", link: "/fr/" },
+           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
           {
             text: "S'inscrire à AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
@@ -196,6 +199,7 @@ export default defineConfig({
         },
         nav: [
           { text: "Inicio", link: "/es/" },
+           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
           {
             text: "Registrarse en AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",

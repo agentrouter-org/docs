@@ -179,5 +179,65 @@ export default defineConfig({
         },
       },
     },
+
+    // --- Spanish Version (LATAM) ---
+    es: {
+      label: "Español",
+      lang: "es-MX",
+      link: "/es/",
+      title: "Guía de integración de AgentRouter",
+      description: "Guía de integración de AgentRouter",
+      themeConfig: {
+        lastUpdated: {
+          text: "Última actualización",
+        },
+        search: {
+          provider: "local",
+        },
+        nav: [
+          { text: "Inicio", link: "/es/" },
+          {
+            text: "Registrarse en AgentRouter",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "Síguenos en X",
+            link: "https://x.com/agentrouter",
+          },
+          { text: "Comenzar", link: "/es/start" },
+          {
+            text: "Guías de herramientas",
+            items: [
+              { text: "Claude Code", link: "/es/start" },
+              { text: "OpenAI Codex", link: "/es/codex" },
+              { text: "Gemini Cli", link: "/es/gemini" },
+              { text: "RooCode", link: "/es/roocode" },
+              { text: "Qwen Code", link: "/es/qwencode" },
+            ],
+          },
+        ],
+        sidebar: [
+          {
+            text: "Comenzar",
+            items: [
+              { text: "Usar con Claude Code", link: "/es/start" },
+              { text: "Usar con Codex", link: "/es/codex" },
+              { text: "Usar con Gemini Cli", link: "/es/gemini" },
+              { text: "Usar con RooCode", link: "/es/roocode" },
+              { text: "Usar con Kilocode", link: "/es/kilocode" },
+              { text: "Usar con Qwen Code", link: "/es/qwencode" },
+            ],
+          },
+          {
+            text: "Contacto",
+            items: [{ text: "Contáctanos", link: "/es/contact" }],
+          },
+        ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
+      },
+    },
+
   },
 });

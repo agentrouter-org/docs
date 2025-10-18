@@ -2,13 +2,21 @@
 
 ## Installer Codex
 
-```bash
-# Installation avec pnpm (recommandé)
-pnpm install -g @openai/codex
+::: code-group
 
-# Ou installation avec npm
+```bash [pnpm]
+pnpm install -g @openai/codex
+```
+
+```bash [npm]
 npm install -g @openai/codex
 ```
+
+```bash [yarn]
+yarn global add @openai/codex
+```
+
+:::
 ## Configurer les variables d'environnement
 
 1. Visitez https://agentrouter.org/console/token pour obtenir votre clé API

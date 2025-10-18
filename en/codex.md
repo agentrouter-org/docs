@@ -2,13 +2,21 @@
 
 ## Install Codex
 
-```bash
-# Install using pnpm (recommended)
-pnpm install -g @openai/codex
+::: code-group
 
-# Or install using npm
+```bash [pnpm]
+pnpm install -g @openai/codex
+```
+
+```bash [npm]
 npm install -g @openai/codex
 ```
+
+```bash [yarn]
+yarn global add @openai/codex
+```
+
+:::
 
 ## Configure Environment Variables
 

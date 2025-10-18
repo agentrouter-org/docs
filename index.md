@@ -4,18 +4,18 @@ layout: home
 
 hero:
   name: "AgentRouter"
-  tagline: AI Coding 公益站
+  tagline: AI Coding Public Service
   actions:
     - theme: brand
-      text: 开始使用
+      text: Get Started
       link: /start
     - theme: alt
-      text: 在 Codex 中使用
+      text: Use with Codex
       link: /codex
 
 features:
-  - title: 免费使用
-    details: 我们为开发者提供力所能及的帮助，提供免费额度，助力 AI Coding。
-  - title: 支持 Claude Code、Codex、Gemini Cli 等多款工具
-    details: 只要是你在用的，我们都支持。
+  - title: Free to Use
+    details: We provide assistance to developers within our capabilities, offering free quotas to support AI Coding.
+  - title: Supports Claude Code, Codex, Gemini Cli and More Tools
+    details: Whatever you're using, we support it.
 ---

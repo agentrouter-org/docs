@@ -1,52 +1,52 @@
-# 在 Qwen Code 中使用 Agent Router
+# Using Agent Router with Qwen Code
 
-
-## 安装 Qwen Code 
+## Install Qwen Code
 
 ```bash
-# 使用 pnpm 安装（推荐）
+# Install using pnpm (recommended)
 pnpm install -g @qwen-code/qwen-code
 
-# 或使用 npm 安装
+# Or install using npm
 npm install -g @qwen-code/qwen-code
 ```
-## 配置环境变量
 
-在终端中输入如下命令，设置环境变量（[环境变量设置教程](https://www.java.com/zh-CN/download/help/path.html)）来使用 AgentRouter 的 OpenAI API :
+## Configure Environment Variables
+
+Enter the following commands in your terminal to set up environment variables ([Environment Variable Setup Tutorial](https://www.java.com/zh-CN/download/help/path.html)) for using AgentRouter's OpenAI API:
 
 ```bash
-# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+# Set your AgentRouter API key, which can be obtained from https://agentrouter.org/console/token
 export OPENAI_API_KEY="sk-xxx"
-# 设置 AgentRouter 的 API 基础 URL
-export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-export OPENAI_MODEL="gpt-5" # 可选，模型名
+# Set AgentRouter's API base URL
+export OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optional
+export OPENAI_MODEL="gpt-5" # Optional, model name
 ```
 
 > [!IMPORTANT]
-> 请确保将 sk-xxx 替换为 AgentRouter 提供的 Token 。您可以在 [AgentRouter 控制台](https://agentrouter.org/console/token ) 中获取 API Key。
+> Make sure to replace sk-xxx with the Token provided by AgentRouter. You can get your API Key from the [AgentRouter Console](https://agentrouter.org/console/token).
 
+## Direct Usage
 
-## 直接启动使用
-
-配置好环境变量后，使用终端打开你要操作的项目目录，然后运行如下命令启动 Qwen Code
+After configuring the environment variables, open your project directory in the terminal and run the following command to start Qwen Code:
 
 ```bash
-# 进入项目目录
+# Navigate to project directory
 cd my-project
 
-# 直接启动 Qwen Code
+# Start Qwen Code directly
 qwen
 ```
+
 ::: tip
-您可以将环境变量配置添加到您的 shell 配置文件中，避免每次手动设置：
+You can add the environment variable configuration to your shell configuration file to avoid setting them manually each time:
 
 ```bash
-# 添加到 ~/.bashrc 或 ~/.zshrc 文件中
-# 设置您的 AgentRouter API 密钥, 可以从 https://agentrouter.org/console/token 获取
+# Add to ~/.bashrc or ~/.zshrc file
+# Set your AgentRouter API key, which can be obtained from https://agentrouter.org/console/token
 export OPENAI_API_KEY="sk-xxx"
-# 设置 AgentRouter 的 API 基础 URL
-export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-export OPENAI_MODEL="gpt-5" # 可选，模型名
+# Set AgentRouter's API base URL
+export OPENAI_BASE_URL="https://agentrouter.org/v1"  # Optional
+export OPENAI_MODEL="gpt-5" # Optional, model name
 ```
 
 :::

@@ -1,16 +1,16 @@
-# 联系我们
+# Contact Us
 
-## 邮箱
+## Email
 
-你可以通过以下邮箱地址联系我们：
+You can contact us through the following email addresses:
 
 - neo@agentrouter.org
 - agentrouter123@gmail.com
 
-## QQ 群
+## QQ Group
 
-因为微信被封了好几次，这次被封到了 10 月中。。。所以就不用微信了（垃圾微信）。
+Due to WeChat being banned multiple times, and this time being banned until mid-October... we won't be using WeChat anymore (trash WeChat).
 
-点击链接加入群聊【AgentRouter】：https://qm.qq.com/q/cwq1fJh1Li
+Click the link to join the group chat【AgentRouter】: https://qm.qq.com/q/cwq1fJh1Li
 
 ![](./img/qqgroup.jpg)

@@ -48,7 +48,7 @@ $env:ANTHROPIC_API_KEY="sk-xxx"
 > Đảm bảo thay thế sk-xxx bằng Token được cung cấp bởi AgentRouter. Bạn có thể lấy API Key từ [AgentRouter Console](https://agentrouter.org/console/token).
 
 
-## Khởi chạy trực tiếp
+## Chạy trực tiếp
 
 Sau khi cấu hình biến môi trường, sử dụng terminal để mở thư mục dự án bạn muốn làm việc, sau đó chạy lệnh sau để khởi động Claude Code:
 

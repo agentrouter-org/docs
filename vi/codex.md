@@ -48,7 +48,7 @@ stream_idle_timeout_ms = 300000
 }
 ```
 
-## Khởi chạy trực tiếp
+## Chạy trực tiếp
 
 Sau khi cấu hình biến môi trường, sử dụng terminal để mở thư mục dự án bạn muốn làm việc, sau đó chạy lệnh sau để khởi động Codex:
 

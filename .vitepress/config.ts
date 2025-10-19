@@ -368,11 +368,11 @@ export default defineConfig({
       label: "Tiếng Việt",
       lang: "vi-VN",
       link: "/vi/",
-      title: "Guía de integración de AgentRouter",
-      description: "Guía de integración de AgentRouter",
+      title: "Hướng dẫn tích hợp AgentRouter",
+      description: "Hướng dẫn tích hợp AgentRouter",
       themeConfig: {
         lastUpdated: {
-          text: "Cập nhật cuối",
+          text: "Cập nhật lần cuối",
         },
         search: {
           provider: "local",
@@ -414,7 +414,7 @@ export default defineConfig({
           },
           {
             text: "Liên hệ",
-            items: [{ text: "Liên hệ", link: "/vi/contact" }],
+            items: [{ text: "Liên hệ chúng tôi", link: "/vi/contact" }],
           },
         ],
         footer: {

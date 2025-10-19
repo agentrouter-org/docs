@@ -14,7 +14,7 @@ hero:
       link: /vi/codex
 
 features:
-  - title: Miễn phí sử dụng
+  - title: Sử dụng miễn phi
     details: Chúng tôi cung cấp hỗ trợ cho các nhà phát triển trong khả năng của mình, cung cấp hạn mức miễn phí để hỗ trợ AI Coding.
   - title: Hỗ trợ Claude Code, Codex, Gemini Cli và nhiều hơn nữa
     details: Dù bạn đang sử dụng công cụ nào, chúng tôi đều hỗ trợ.

@@ -30,6 +30,12 @@ export ANTHROPIC_BASE_URL=https://agentrouter.org/
 # Définir votre clé API AgentRouter, disponible sur https://agentrouter.org/console/token
 export ANTHROPIC_AUTH_TOKEN=sk-xxx
 export ANTHROPIC_API_KEY=sk-xxx
+
+# (Optionnel) Définir le modèle principal pour Claude Code - utilisé pour la génération de code et l'analyse
+export ANTHROPIC_MODEL=claude-sonnet-4-5-20250929
+
+# (Optionnel) Définir le modèle rapide/léger pour les tâches rapides et les appels d'outils - remplace le modèle ANTHROPIC_SMALL_FAST_MODEL déprécié
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-haiku-4-5-20251001
 ```
 
 ```powershell [Windows PowerShell]
@@ -39,6 +45,12 @@ $env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
 # Définir votre clé API AgentRouter, disponible sur https://agentrouter.org/console/token
 $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
+
+# (Optionnel) Définir le modèle principal pour Claude Code - utilisé pour la génération de code et l'analyse
+$env:ANTHROPIC_MODEL="claude-sonnet-4-5-20250929"
+
+# (Optionnel) Définir le modèle rapide/léger pour les tâches rapides et les appels d'outils - remplace le modèle ANTHROPIC_SMALL_FAST_MODEL déprécié
+$env:ANTHROPIC_DEFAULT_HAIKU_MODEL="claude-haiku-4-5-20251001"
 ```
 
 :::
@@ -46,6 +58,13 @@ $env:ANTHROPIC_API_KEY="sk-xxx"
 > [!IMPORTANT]
 > Assurez-vous de remplacer sk-xxx par le Token fourni par AgentRouter. Vous pouvez obtenir votre clé API dans la [console AgentRouter](https://agentrouter.org/console/token).
 
+## Configuration du modèle
+
+### ANTHROPIC_MODEL
+Le modèle principal utilisé par Claude Code pour la génération de code et les tâches d'analyse complètes. C'est le modèle de travail principal qui gère la majorité des opérations de Claude Code, optimisé pour produire des solutions de code de haute qualité.
+
+### ANTHROPIC_DEFAULT_HAIKU_MODEL
+Le modèle rapide et léger utilisé pour les tâches rapides et les appels d'outils. Ce modèle remplace le modèle `ANTHROPIC_SMALL_FAST_MODEL` déprécié et est optimisé pour les réponses rapides et l'exécution efficace des outils. Il est idéal pour les tâches qui ne nécessitent pas d'analyse approfondie, telles que les appels API, l'exécution d'outils et la gestion des transformations simples.
 
 ## Lancement direct
 
@@ -68,6 +87,8 @@ Vous pouvez ajouter la configuration des variables d'environnement à votre fich
 export ANTHROPIC_BASE_URL=https://agentrouter.org/
 export ANTHROPIC_AUTH_TOKEN=sk-xxx
 export ANTHROPIC_API_KEY=sk-xxx
+export ANTHROPIC_MODEL=claude-sonnet-4-5-20250929
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-haiku-4-5-20251001
 ```
 
 ```powershell [Windows PowerShell]
@@ -75,6 +96,9 @@ export ANTHROPIC_API_KEY=sk-xxx
 $env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
 $env:ANTHROPIC_AUTH_TOKEN="sk-xxx"
 $env:ANTHROPIC_API_KEY="sk-xxx"
+$env:ANTHROPIC_MODEL="claude-sonnet-4-5-20250929"
+$env:ANTHROPIC_DEFAULT_HAIKU_MODEL="claude-haiku-4-5-20251001"
 ```
 
 :::
+

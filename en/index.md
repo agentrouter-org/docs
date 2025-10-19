@@ -5,6 +5,9 @@ layout: home
 hero:
   name: "AgentRouter"
   tagline: Non-profit AI Coding Platform
+  image:
+    src: /img/agent-logo.png
+    alt: "AgentRouter Logo"
   actions:
     - theme: brand
       text: Get Started

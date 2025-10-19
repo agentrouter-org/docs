@@ -16,4 +16,4 @@ Selepas menyelesaikan pemasangan Roo Code, anda boleh membuka Roo Code, pilih ko
 
 Selepas konfigurasi, simpan dan anda sudah bersedia untuk menggunakannya.
 
-![](./img/roo-code.png)
+![](../img/roo-code.png)

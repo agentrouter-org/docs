@@ -13,4 +13,4 @@ Karena WeChat udah kena banned berkali-kali, dan kali ini banned sampai pertenga
 
 Klik link ini untuk join grup chat【AgentRouter】: https://qm.qq.com/q/cwq1fJh1Li
 
-![](./img/qqgroup.jpg)
+![](../img/qqgroup.jpg)

@@ -60,7 +60,7 @@ codex
 
 3. Pergi ke tetapan dan klik sudut kanan atas untuk beralih ke mod konfigurasi JSON
 
-![](./img/codex-config.png)
+![](../img/codex-config.png)
 
 4. Tambahkan item konfigurasi berikut
 
@@ -72,6 +72,6 @@ codex
 }
 ```
 
-![](./img/codex-config2.png)
+![](../img/codex-config2.png)
 
 5. Klik ikon Codex untuk mula menggunakan

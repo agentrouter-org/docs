@@ -16,4 +16,4 @@ Setelah instalasi Roo Code selesai, kamu bisa buka Roo Code, pilih configure pro
 
 Setelah konfigurasi, save dan siap digunakan.
 
-![](./img/roo-code.png)
+![](../img/roo-code.png)

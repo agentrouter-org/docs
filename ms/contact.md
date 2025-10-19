@@ -13,4 +13,4 @@ Oleh kerana WeChat telah diharamkan beberapa kali, dan kali ini diharamkan sehin
 
 Klik pautan untuk menyertai sembang kumpulan【AgentRouter】: https://qm.qq.com/q/cwq1fJh1Li
 
-![](./img/qqgroup.jpg)
+![](../img/qqgroup.jpg)

@@ -16,4 +16,4 @@ Selepas menyelesaikan pemasangan Kilo Code, anda boleh membuka Kilo Code, pilih 
 
 Selepas konfigurasi, simpan dan anda sudah bersedia untuk menggunakannya.
 
-![](./img/kilocode.png)
+![](../img/kilocode.png)

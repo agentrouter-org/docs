@@ -16,4 +16,4 @@ Setelah instalasi Kilo Code selesai, kamu bisa buka Kilo Code, pilih configure p
 
 Setelah konfigurasi, save dan siap digunakan.
 
-![](./img/kilocode.png)
+![](../img/kilocode.png)

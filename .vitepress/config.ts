@@ -23,7 +23,7 @@ export default defineConfig({
         },
         nav: [
           { text: "首页", link: "/" },
-          { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
           {
             text: "注册 AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
@@ -86,7 +86,7 @@ export default defineConfig({
             text: "Register AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
           },
-           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
           {
             text: "Follow on X",
             link: "https://x.com/agentrouter",
@@ -139,7 +139,7 @@ export default defineConfig({
         },
         nav: [
           { text: "Accueil", link: "/fr/" },
-           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
           {
             text: "S'inscrire à AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
@@ -182,122 +182,122 @@ export default defineConfig({
         },
       },
     },
-    
+
     // --- Indonesian Version ---
-id: {
-  label: "Bahasa Indonesia",
-  lang: "id",
-  link: "/id/",
-  title: "Panduan Integrasi AgentRouter",
-  description: "Panduan Integrasi AgentRouter",
-  themeConfig: {
-    lastUpdated: {
-      text: "Terakhir diperbarui",
-    },
-    nav: [
-      { text: "Beranda", link: "/id/" },
-      { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
-      {
-        text: "Daftar ke AgentRouter",
-        link: "https://agentrouter.org/register?aff=IPN5",
-      },
-      {
-        text: "Ikuti kami di X",
-        link: "https://x.com/agentrouter",
-      },
-      { text: "Mulai Cepat", link: "/id/start" },
-      {
-        text: "Panduan Alat",
-        items: [
-          { text: "Claude Code", link: "/id/start" },
-          { text: "OpenAI Codex", link: "/id/codex" },
-          { text: "Gemini Cli", link: "/id/gemini" },
-          { text: "RooCode", link: "/id/roocode" },
-          { text: "Qwen Code", link: "/id/qwencode" },
+    id: {
+      label: "Bahasa Indonesia",
+      lang: "id",
+      link: "/id/",
+      title: "Panduan Integrasi AgentRouter",
+      description: "Panduan Integrasi AgentRouter",
+      themeConfig: {
+        lastUpdated: {
+          text: "Terakhir diperbarui",
+        },
+        nav: [
+          { text: "Beranda", link: "/id/" },
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
+          {
+            text: "Daftar ke AgentRouter",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "Ikuti kami di X",
+            link: "https://x.com/agentrouter",
+          },
+          { text: "Mulai Cepat", link: "/id/start" },
+          {
+            text: "Panduan Alat",
+            items: [
+              { text: "Claude Code", link: "/id/start" },
+              { text: "OpenAI Codex", link: "/id/codex" },
+              { text: "Gemini Cli", link: "/id/gemini" },
+              { text: "RooCode", link: "/id/roocode" },
+              { text: "Qwen Code", link: "/id/qwencode" },
+            ],
+          },
         ],
-      },
-    ],
-    sidebar: [
-      {
-        text: "Mulai Cepat",
-        items: [
-          { text: "Gunakan dengan Claude Code", link: "/id/start" },
-          { text: "Gunakan dengan Codex", link: "/id/codex" },
-          { text: "Gunakan dengan Gemini Cli", link: "/id/gemini" },
-          { text: "Gunakan dengan RooCode", link: "/id/roocode" },
-          { text: "Gunakan dengan Kilocode", link: "/id/kilocode" },
-          { text: "Gunakan dengan Qwen Code", link: "/id/qwencode" },
+        sidebar: [
+          {
+            text: "Mulai Cepat",
+            items: [
+              { text: "Gunakan dengan Claude Code", link: "/id/start" },
+              { text: "Gunakan dengan Codex", link: "/id/codex" },
+              { text: "Gunakan dengan Gemini Cli", link: "/id/gemini" },
+              { text: "Gunakan dengan RooCode", link: "/id/roocode" },
+              { text: "Gunakan dengan Kilocode", link: "/id/kilocode" },
+              { text: "Gunakan dengan Qwen Code", link: "/id/qwencode" },
+            ],
+          },
+          {
+            text: "Kontak",
+            items: [{ text: "Hubungi Kami", link: "/id/contact" }],
+          },
         ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
       },
-      {
-        text: "Kontak",
-        items: [{ text: "Hubungi Kami", link: "/id/contact" }],
-      },
-    ],
-    footer: {
-      copyright: "AgentRouter.org",
     },
-  },
-},
 
-// --- Malaysian Version ---
-ms: {
-  label: "Bahasa Melayu",
-  lang: "ms",
-  link: "/ms/",
-  title: "Panduan Integrasi AgentRouter",
-  description: "Panduan Integrasi AgentRouter",
-  themeConfig: {
-    lastUpdated: {
-      text: "Kemas kini terakhir",
-    },
-    nav: [
-      { text: "Laman Utama", link: "/ms/" },
-      { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
-      {
-        text: "Daftar ke AgentRouter",
-        link: "https://agentrouter.org/register?aff=IPN5",
-      },
-      {
-        text: "Ikuti kami di X",
-        link: "https://x.com/agentrouter",
-      },
-      { text: "Mula Pantas", link: "/ms/start" },
-      {
-        text: "Panduan Alat",
-        items: [
-          { text: "Claude Code", link: "/ms/start" },
-          { text: "OpenAI Codex", link: "/ms/codex" },
-          { text: "Gemini Cli", link: "/ms/gemini" },
-          { text: "RooCode", link: "/ms/roocode" },
-          { text: "Qwen Code", link: "/ms/qwencode" },
+    // --- Malaysian Version ---
+    ms: {
+      label: "Bahasa Melayu",
+      lang: "ms",
+      link: "/ms/",
+      title: "Panduan Integrasi AgentRouter",
+      description: "Panduan Integrasi AgentRouter",
+      themeConfig: {
+        lastUpdated: {
+          text: "Kemas kini terakhir",
+        },
+        nav: [
+          { text: "Laman Utama", link: "/ms/" },
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
+          {
+            text: "Daftar ke AgentRouter",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "Ikuti kami di X",
+            link: "https://x.com/agentrouter",
+          },
+          { text: "Mula Pantas", link: "/ms/start" },
+          {
+            text: "Panduan Alat",
+            items: [
+              { text: "Claude Code", link: "/ms/start" },
+              { text: "OpenAI Codex", link: "/ms/codex" },
+              { text: "Gemini Cli", link: "/ms/gemini" },
+              { text: "RooCode", link: "/ms/roocode" },
+              { text: "Qwen Code", link: "/ms/qwencode" },
+            ],
+          },
         ],
-      },
-    ],
-    sidebar: [
-      {
-        text: "Mula Pantas",
-        items: [
-          { text: "Guna dengan Claude Code", link: "/ms/start" },
-          { text: "Guna dengan Codex", link: "/ms/codex" },
-          { text: "Guna dengan Gemini Cli", link: "/ms/gemini" },
-          { text: "Guna dengan RooCode", link: "/ms/roocode" },
-          { text: "Guna dengan Kilocode", link: "/ms/kilocode" },
-          { text: "Guna dengan Qwen Code", link: "/ms/qwencode" },
+        sidebar: [
+          {
+            text: "Mula Pantas",
+            items: [
+              { text: "Guna dengan Claude Code", link: "/ms/start" },
+              { text: "Guna dengan Codex", link: "/ms/codex" },
+              { text: "Guna dengan Gemini Cli", link: "/ms/gemini" },
+              { text: "Guna dengan RooCode", link: "/ms/roocode" },
+              { text: "Guna dengan Kilocode", link: "/ms/kilocode" },
+              { text: "Guna dengan Qwen Code", link: "/ms/qwencode" },
+            ],
+          },
+          {
+            text: "Hubungan",
+            items: [{ text: "Hubungi Kami", link: "/ms/contact" }],
+          },
         ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
       },
-      {
-        text: "Hubungan",
-        items: [{ text: "Hubungi Kami", link: "/ms/contact" }],
-      },
-    ],
-    footer: {
-      copyright: "AgentRouter.org",
     },
-  },
-},
 
-    
+
     // --- Spanish Version (LATAM) ---
     es: {
       label: "Español",
@@ -314,7 +314,7 @@ ms: {
         },
         nav: [
           { text: "Inicio", link: "/es/" },
-           { text:"Discord",link:"https://discord.gg/mvjP2U3cY2"},
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
           {
             text: "Registrarse en AgentRouter",
             link: "https://agentrouter.org/register?aff=IPN5",
@@ -357,6 +357,72 @@ ms: {
         },
       },
     },
+
+
+
+
+
+
+    // --- Vietnamese Version ---
+    vi: {
+      label: "Tiếng Việt",
+      lang: "vi-VN",
+      link: "/vi/",
+      title: "Guía de integración de AgentRouter",
+      description: "Guía de integración de AgentRouter",
+      themeConfig: {
+        lastUpdated: {
+          text: "Cập nhật cuối",
+        },
+        search: {
+          provider: "local",
+        },
+        nav: [
+          { text: "Trang chủ", link: "/vi/" },
+          { text: "Discord", link: "https://discord.gg/mvjP2U3cY2" },
+          {
+            text: "Đăng ký AgentRouter",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "Theo dõi trên X",
+            link: "https://x.com/agentrouter",
+          },
+          { text: "Bắt đầu", link: "/vi/start" },
+          {
+            text: "Các công cụ hướng dẫn",
+            items: [
+              { text: "Claude Code", link: "/vi/start" },
+              { text: "OpenAI Codex", link: "/vi/codex" },
+              { text: "Gemini Cli", link: "/vi/gemini" },
+              { text: "RooCode", link: "/vi/roocode" },
+              { text: "Qwen Code", link: "/vi/qwencode" },
+            ],
+          },
+        ],
+        sidebar: [
+          {
+            text: "Bắt đầu",
+            items: [
+              { text: "Sử dụng với Claude Code", link: "/vi/start" },
+              { text: "Sử dụng với Codex", link: "/vi/codex" },
+              { text: "Sử dụng với Gemini Cli", link: "/vi/gemini" },
+              { text: "Sử dụng với RooCode", link: "/vi/roocode" },
+              { text: "Sử dụng với Kilocode", link: "/vi/kilocode" },
+              { text: "Sử dụng với Qwen Code", link: "/vi/qwencode" },
+            ],
+          },
+          {
+            text: "Liên hệ",
+            items: [{ text: "Liên hệ", link: "/vi/contact" }],
+          },
+        ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
+      },
+    },
+
 
   },
 });

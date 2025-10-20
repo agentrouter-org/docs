@@ -15,7 +15,7 @@
 
 - OpenAI 基础 URL： `https://agentrouter.org/v1`
 - API 密钥：你在  https://agentrouter.org/console/token  创建的 Key
-- 模型： `gpt-5`
+- 模型： `gpt-5`, 也可以将其修改为 `glm-4.5`,`glm-4.6`,or `deepseek-v3.1` 等模型。
 
 配置完成后，保存即可使用。
 

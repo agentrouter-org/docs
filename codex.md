@@ -24,7 +24,7 @@ yarn global add @openai/codex
 3. 创建 `~/.codex/config.toml` 文件，并添加如下配置
 
 ```toml
-model = "gpt-5"
+model = "gpt-5" # 也可以将其修改为 glm4.5,glm-4.6,or deepseek-v3.1
 model_provider = "openai-chat-completions"
 preferred_auth_method = "apikey"
 

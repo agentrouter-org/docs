@@ -29,7 +29,7 @@ yarn global add @qwen-code/qwen-code
 export OPENAI_API_KEY="sk-xxx"
 # 设置 AgentRouter 的 API 基础 URL
 export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-export OPENAI_MODEL="gpt-5" # 可选，模型名
+export OPENAI_MODEL="gpt-5" # 可选，模型名 ，可以修改为 `deepseek-v3.1` , `deepseek-v3.2`
 ```
 
 ```powershell [Windows PowerShell]
@@ -37,7 +37,7 @@ export OPENAI_MODEL="gpt-5" # 可选，模型名
 $env:OPENAI_API_KEY="sk-xxx"
 # 设置 AgentRouter 的 API 基础 URL
 $env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-$env:OPENAI_MODEL="gpt-5" # 可选，模型名
+$env:OPENAI_MODEL="gpt-5" # 可选，模型名 ，可以修改为 `deepseek-v3.1` , `deepseek-v3.2`
 ```
 
 :::
@@ -68,7 +68,7 @@ qwen
 export OPENAI_API_KEY="sk-xxx"
 # 设置 AgentRouter 的 API 基础 URL
 export OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-export OPENAI_MODEL="gpt-5" # 可选，模型名
+export OPENAI_MODEL="gpt-5" # 可选，模型名 ，可以修改为 `deepseek-v3.1` , `deepseek-v3.2`
 ```
 
 ```powershell [Windows PowerShell]
@@ -77,7 +77,7 @@ export OPENAI_MODEL="gpt-5" # 可选，模型名
 $env:OPENAI_API_KEY="sk-xxx"
 # 设置 AgentRouter 的 API 基础 URL
 $env:OPENAI_BASE_URL="https://agentrouter.org/v1"  # 可选
-$env:OPENAI_MODEL="gpt-5" # 可选，模型名
+$env:OPENAI_MODEL="gpt-5" # 可选，模型名 ，可以修改为 `deepseek-v3.1` , `deepseek-v3.2`
 ```
 
 :::
